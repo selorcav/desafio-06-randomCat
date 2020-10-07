@@ -1,22 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1></h1>
+    <RandomCat msg="Random Gif Cat"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RandomCat from './components/RandomCat.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RandomCat
   }
 }
 </script>
 
 <style>
+body{
+  background-color: lightseagreen;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
